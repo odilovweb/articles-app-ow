@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .align-element {
+    @apply max-w-5xl mx-auto px-4;
+  }
+}
+@layer {
+  .active {
+    @apply bg-primary text-slate-200;
+  }
+}
